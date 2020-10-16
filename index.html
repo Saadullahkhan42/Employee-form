@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+          <form>
+            <div class="cls_6">
+                <input type="text" id="LIN" placeholder="LIN"> 
+                <label for="Emp">Employee form</label>
+            </div>
+            <br>
+          <div>
+              <label for="fuName">Full Name</label>
+              <input type="text" id="fuName" class="cls_5">
+          </div><br>
+          
+          <div>
+              <label for="fName">Prefered FirstName</label>
+              <input type="text" id="fName" class="cls_pf">&nbsp;
+              <label for="sSecurity">Social Security</label>
+              <input type="text" id="sSecurity">
+          </div><br>
+          
+          <div>
+                <label for="hA">Home Adress <sub>Street</sub></label>
+                <input type="text" id="hA" class="cls_7">
+          </div><br>
+          
+          <div>
+              <label for="city">City</label>
+              <input type="text" id="city" class="cls_city">&nbsp;
+              <label for="state">State</label>
+              <input type="text" id="state">&nbsp;
+              <label for="zip">Zip</label>
+              <input type="text" id="zip ">
+          </div>
+          <br>
+          <div>
+              <label for="cell no">Home Phone number</label>
+              <input type="number" id="cell no" class="cls_cell">&nbsp;
+              <label for="campus">Campus Phone number</label>
+              <input type="number" id="campus" class="cls_no">
+          </div> <br>
+          
+          <div>
+              <label for="Address">Campus Address <sub>(Includig bldg.#)</sub></label>
+              <input type="text" id="Address" class="cls_6">
+          </div><br>
+          <hr>
+          <center>
+          <div>
+              <label for="Gender">Gender <sub>(Select one) </sub></label>&nbsp;
+              <input type="checkbox" id="Gender">Male
+              <input type="checkbox" id="Gender">Female &nbsp;
+              <label for="DOB">Birthday</label>
+              <input type="date" id="Birthday">
+          </div><br>
+          
+          <div>
+            <label for="citizenship">Citizenship <sub>(Select one) </sub></label>&nbsp;
+            <input type="checkbox" id="citizenship">Non-citizenship&nbsp;
+            <input type="checkbox" id="citizenship">Citizenship &nbsp;
+            <input type="checkbox" id="citizenship">Permanent Resident 
+        </div><br>
+        
+        <div>
+            <label for="martialstatus">Martial Status<sub>(Select one) </sub></label>&nbsp;
+            <input type="checkbox" id="martialstatus">Divorced &nbsp;
+            <input type="checkbox" id="martialstatus">Married &nbsp;
+            <input type="checkbox" id="martialstatus">Widowed &nbsp;
+            <input type="checkbox" id="martialstatus">Single &nbsp;
+        </div><br>
+        </center>
+        <hr>
+
+        <div>
+            <p>U.S Government Ethnicity and race Classification- Please select an Ethnicity classification and all Race classification thath may apply</p>
+        </div>
+        <hr>
+        <center>
+        <table class="tbl_1">
+            
+            <tr>
+                <td><label for="Ethnicity"><h4> Ethnicity<sub>(Select one) </sub></h4></label></td>
+                 <td><label for="Race"><h4> Race<sub>(multiple selections permitted): </sub></h4></label></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" id="Ethnicity">Hispanic or Latino </td>
+                <td><input type="checkbox" id="Race">Asian</td>
+                <td><input type="checkbox" id="Race">American Indian or Alaskan Native</td>
+            </tr>
+              <tr>
+                  <td> <input type="checkbox" id="Ethnicity">Non-Hispanic or Latino</td>
+                  <td><input type="checkbox" id="Race">Black or African American</td>
+                  <td><input type="checkbox" id="Race">NAtive Hawaiian or other Pacific Islander</td>
+              </tr>
+             <tr>
+                 <td></td>
+                 <td><input type="checkbox" id="Race">White</td>
+             </tr>
+         </table>
+        </center>
+         <hr>
+         <center>
+         <table class="tbl_2">
+            <tr>
+                <td><label for="vetInfo"><h4> Veteran Information<sub>(Select one)</h4> </sub></label></td>
+                 <td colspan="2"></td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+                <td><input type="checkbox" id="vetInfo">Vitenam Era Viteran</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" id="vetInfo">None</td>
+                <td> <input type="checkbox" id="vetInfo">Disable Veteran</td>
+                <td><input type="checkbox" id="vetInfo">Other protected Veteran</td>
+                <td> <input type="checkbox" id="vetInfo">Armed force service veteran</td>
+            </tr>
+              <tr>
+                  <td>
+                    <input type="checkbox" id="vetInfo">Recently seperated veteran 
+                    <input type="text" name="Recently seperated veteran" id="vetInfo"> 
+                  </td>
+                  <td colspan="2"></td>
+                  <td><input type="checkbox" id="vetInfo">Veteran ( no other categoryapplies to me )</td>
+              </tr>
+         </table>
+        </center>
+         <hr>
+        <div>
+            <label for="emg_contact">Emergency Contact Number(1):</label>
+            <input type="number" id="emg_contact">
+            <label for="phone">Phoe number:</label>
+            <input type="number" id="phone">
+        </div><br>
+        
+        <div>
+            <label for="Add">Address:</label>
+            <input type="text" id="add"  class="cls_5">
+        </div>
+        <hr>
+        <center>
+        <table class="tbl_3">
+            <tr>
+                <td><label for="rel"><h4>Relationship<sub>(Select one) </sub></h4></label></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" id="rel">Aunt/Uncle</td>
+                <td><input type="checkbox" id="rel">Brother</td>
+                <td><input type="checkbox" id="rel">Spouse/Significant other</td>
+                <td><input type="checkbox" id="rel">Great Grandparent</td>
+                <td><input type="checkbox" id="rel">Father</td>
+                <td><input type="checkbox" id="rel">Grandparent</td>
+            </tr>
+              <tr>
+                <td><input type="checkbox" id="rel">Child</td>
+                <td><input type="checkbox" id="rel">Mother</td>
+                <td><input type="checkbox" id="rel">Other relative</td>
+                <td><input type="checkbox" id="rel">Parent</td>
+                <td><input type="checkbox" id="rel">Sister</td>
+                <td><input type="checkbox" id="rel">Cousin</td>
+              </tr>     
+        </table>
+    </center>
+        <hr>
+        <div>
+            <h4 id="Edu">Education<sub>(Please list only completed degree)</sub></h4>
+            <input type="checkbox" id="Edu" class="cls_3">GED or High School <br>
+            <label for="Ins">Institution</label>
+            <input type="text" id="Ins" class="cls_2"> &nbsp;
+            <label for="city">City/State</label>
+            <input type="text" id="city" class="cls_1"> <br>
+            <label for="year">Year of Graduation</label>
+            <input type="date" id="year" class="cls_1"> &nbsp;
+            <label for="major">Major</label>
+            <input type="text" id="major" class="cls_2"> <br><br>
+            
+            <input type="checkbox" id="Edu" class="cls_3">Associate's Degree <br>
+            <label for="Ins">Institution</label>
+            <input type="text" id="Ins" class="cls_2"> &nbsp;
+            <label for="city">City/State</label>
+            <input type="text" id="city" class="cls_1"> <br>
+            <label for="year">Year of Graduation</label>
+            <input type="date" id="year" class="cls_1"> &nbsp;
+            <label for="major">Major</label>
+            <input type="text" id="major" class="cls_2"> <br><br>
+
+            <input type="checkbox" id="Edu" class="cls_3">Bachlor's Degree <br>
+            <label for="Ins">Institution</label>
+            <input type="text" id="Ins" class="cls_2"> &nbsp;
+            <label for="city">City/State</label>
+            <input type="text" id="city" class="cls_1"> <br>
+            <label for="year">Year of Graduation</label>
+            <input type="date" id="year" class="cls_1"> &nbsp;
+            <label for="major">Major</label>
+            <input type="text" id="major" class="cls_2"> <br><br>
+
+            <input type="checkbox" id="Edu" class="cls_3">Master's Degree <br>
+            <label for="Ins">Institution</label>
+            <input type="text" id="Ins" class="cls_2"> &nbsp;
+            <label for="city">City/State</label>
+            <input type="text" id="city" class="cls_1"> <br>
+            <label for="year">Year of Graduation</label>
+            <input type="date" id="year" class="cls_1"> &nbsp;
+            <label for="major">Major</label>
+            <input type="text" id="major" class="cls_2"> <br><br>
+
+            <input type="checkbox" id="Edu" class="cls_3">Ph.D <br>
+            <label for="Ins">Institution</label>
+            <input type="text" id="Ins" class="cls_2"> &nbsp;
+            <label for="city">City/State</label>
+            <input type="text" id="city" class="cls_1"> <br>
+            <label for="year">Year of Graduation</label>
+            <input type="date" id="year" class="cls_1"> &nbsp; 
+            <label for="major">Major</label>
+            <input type="text" id="major" class="cls_2"> <br><br>
+
+            <input type="checkbox" id="Edu" class="cls_3">Other (list)<br>
+            <label for="Ins">Institution</label>
+            <input type="text" id="Ins" class="cls_2">&nbsp;
+            <label for="city">City/State</label>
+            <input type="text" id="city" class="cls_1"> <br>
+            <label for="year">Year of Graduation</label>
+            <input type="date" id="year" class="cls_1"> &nbsp;
+            <label for="major">Major</label>
+            <input type="text" id="major" class="cls_2"> <br>
+        </div>
+        <br><hr>
+      </form>
+    </center>
+</body>
+</html>

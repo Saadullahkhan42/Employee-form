@@ -1,0 +1,56 @@
+
+form{
+    border-style: groove;
+    width: 950px;
+    text-align: left;
+    padding-left: 2px;
+}
+
+
+input.cls_1{
+    border: none;
+    border-bottom: 2px solid black;
+    width: 30%;
+}
+
+input.cls_2{
+    width:50%;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+input.cls_3{
+    padding: 12px 20px;
+}
+
+div.cls_6{
+    text-align: center;
+}
+
+input.cls_5{
+    width: 91%;
+}
+
+input.cls_6{
+    width: 77%;
+}
+
+input.cls_7{
+    width: 85%;
+}
+
+input.cls_pf{
+    width: 55%;
+}
+
+input.cls_city{
+    width: 50%;
+}
+
+input.cls_cell{
+    width: 40%;
+}
+
+input.cls_no{
+    width: 26%;
+}
